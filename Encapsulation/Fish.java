@@ -6,30 +6,33 @@ public class Fish {
 	private String fishtype;
 	private String place;
 	
-	public Fish(){
+	public Fish(int id, String fishtype,String place){
 	
-	}
-	
-	public void setID(int id) {
 		this.id=id;
-	}
-	
-	public void setfishtype(String fishtype) {
 		this.fishtype=fishtype;
-	}
-	
-	public void setplace(String place) {
 		this.place=place;
 	}
 	
-	public int getID(int id) {
+	public void setID(int ID) {
+		id=ID;
+	}
+	
+	public void setfishtype(String fish) {
+		fishtype=fish;
+	}
+	
+	public void setplace(String orderplace) {
+		place=orderplace;
+	}
+	
+	public int getID() {
 		return id;
 	}
 	
-	public String getfishtype(String fishtype) {
+	public String getfishtype() {
 		return fishtype;
 	}
-	String getplace(String place) {
+	String getplace() {
 		return place;
 	}
 
